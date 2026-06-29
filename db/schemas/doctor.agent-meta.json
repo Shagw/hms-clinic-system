@@ -1,0 +1,8 @@
+{
+  "taskId": "9a649c1e-6eb5-4b90-bb20-12e6e4fc8757",
+  "agentType": "schema",
+  "agentName": "Schema Agent",
+  "prompt": "Create a roles and permissions RBAC schema with tables: roles (id, clinic_id, name, description), permissions (id, name, resource, action), role_permissions (role_id, permission_id), and user_clinic_roles (user_id, clinic_id, role_id). Default roles should be: admin, doctor, receptionist, nurse, lab_technician, billing_staff.",
+  "generatedAt": "2026-06-29T19:28:45.660Z",
+  "model": "claude-sonnet-4-6"
+}
