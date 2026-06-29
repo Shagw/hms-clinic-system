@@ -1,0 +1,8 @@
+{
+  "taskId": "2b5c5476-d81a-4892-a78e-f0e907a09622",
+  "agentType": "backend",
+  "agentName": "Backend Agent",
+  "prompt": "Create a roles and permissions RBAC schema with tables: roles (id, clinic_id, name, description), permissions (id, name, resource, action), role_permissions (role_id, permission_id), and user_clinic_roles (user_id, clinic_id, role_id). Default roles should be: admin, doctor, receptionist, nurse, lab_technician, billing_staff.",
+  "generatedAt": "2026-06-29T19:20:06.657Z",
+  "model": "claude-sonnet-4-6"
+}
