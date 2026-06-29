@@ -1,0 +1,8 @@
+{
+  "taskId": "8c8fc78d-5a74-4b67-b7e1-b8d681d81ddd",
+  "agentType": "schema",
+  "agentName": "Schema Agent",
+  "prompt": "Create a billing schema with tables: bills (id, clinic_id, patient_id, consultation_id, bill_number, status (draft/pending/paid/cancelled), subtotal, discount, tax, total, payment_method (cash/card/upi/insurance), paid_at, created_at, updated_at), bill_items (id, bill_id, description, quantity,",
+  "generatedAt": "2026-06-29T19:33:27.420Z",
+  "model": "claude-sonnet-4-6"
+}
