@@ -1,8 +1,0 @@
-{
-  "taskId": "58f29c44-93fd-4d46-928c-731fa09a148b",
-  "agentType": "backend",
-  "agentName": "Backend Agent",
-  "prompt": "Create a multi-tenant base schema with a clinics table (id, name, address, phone, email, subscription_plan, is_active, created_at, updated_at, deleted_at) and a clinic_settings table (clinic_id, logo_url, working_hours, appointment_duration_minutes, currency, timezone). Every other table will reference clinic_id for tenant isolation.",
-  "generatedAt": "2026-06-29T19:17:39.835Z",
-  "model": "claude-sonnet-4-6"
-}
