@@ -1,8 +1,8 @@
 {
-  "taskId": "26bbc5ce-d772-486a-8896-8410f190868f",
+  "taskId": "c37d9159-f5e7-4ff8-8b3e-60f5eadd6be8",
   "agentType": "schema",
   "agentName": "Schema Agent",
-  "prompt": "Create a patients schema with tables: patients (id, clinic_id, patient_uid, full_name, date_of_birth, gender, phone, email, address, blood_group, emergency_contact_name, emergency_contact_phone, created_at, updated_at, deleted_at) and patient_medical_info (id, patient_id, clinic_id, allergies, chronic_conditions, current_medications, family_history, notes, updated_at). Reference the clinics table already created.",
-  "generatedAt": "2026-06-29T19:31:45.400Z",
+  "prompt": "Create an audit_logs schema with table: audit_logs (id, clinic_id, user_id, action, resource, resource_id, old_value (jsonb), new_value (jsonb), ip_address, user_agent, created_at). This should capture every create, update, delete on patient records, bills, prescriptions. Add indexes on clinic_id, user_id, resource, created_at.",
+  "generatedAt": "2026-06-29T19:34:44.535Z",
   "model": "claude-sonnet-4-6"
 }
