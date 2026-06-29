@@ -1,8 +1,8 @@
 {
-  "taskId": "f09d98d4-8e76-4b71-a8da-4bf3ed037233",
+  "taskId": "63fa7c2c-d9fb-4cee-b58e-6e9763a09578",
   "agentType": "schema",
   "agentName": "Schema Agent",
-  "prompt": "Create a multi-tenant base schema with a clinics table (id, name, address, phone, email, subscription_plan, is_active, created_at, updated_at, deleted_at) and a clinic_settings table (clinic_id, logo_url, working_hours, appointment_duration_minutes, currency, timezone). Every other table will reference clinic_id for tenant isolation.",
-  "generatedAt": "2026-06-29T19:21:03.649Z",
+  "prompt": "Create an appointments schema with tables: appointments (id, clinic_id, patient_id, doctor_id, scheduled_at, duration_minutes, status (scheduled/confirmed/completed/cancelled/no_show), type (in_person/online), reason, notes, created_by, created_at, updated_at) and appointment_reminders (id, appointment_id, reminder_type (sms/email/whatsapp), scheduled_at, sent_at, status). Reference the patients, doctors, and clinics tables already created.",
+  "generatedAt": "2026-06-29T19:32:22.703Z",
   "model": "claude-sonnet-4-6"
 }
