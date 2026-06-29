@@ -1,0 +1,8 @@
+{
+  "taskId": "e1c204ba-9576-4509-9ce5-c318931c141b",
+  "agentType": "backend",
+  "agentName": "Backend Agent",
+  "prompt": "Create Express.js auth routes: POST /api/auth/register (clinic + admin user signup), POST /api/auth/login (returns JWT with user info and role), POST /api/auth/refresh-token, POST /api/auth/logout, GET /api/auth/me. JWT should include clinic_id, user_id, role. All routes should work with the users, clinics, and user_clinic_roles tables already created.",
+  "generatedAt": "2026-06-29T19:36:11.888Z",
+  "model": "claude-sonnet-4-6"
+}
