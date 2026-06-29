@@ -1,0 +1,8 @@
+{
+  "taskId": "c446e4de-8d45-4578-ad68-3c202a11c1da",
+  "agentType": "schema",
+  "agentName": "Schema Agent",
+  "prompt": "Create a users and staff schema with tables: users (id, email, password_hash, full_name, phone, is_active, last_login, created_at), staff (id, user_id, clinic_id, employee_id, department, joining_date, is_active). Reference the clinics and roles tables already created.",
+  "generatedAt": "2026-06-29T19:29:54.249Z",
+  "model": "claude-sonnet-4-6"
+}
