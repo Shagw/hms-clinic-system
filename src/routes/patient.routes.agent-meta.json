@@ -1,0 +1,8 @@
+{
+  "taskId": "66b8ef73-40c9-460d-a796-0f40be4c42a9",
+  "agentType": "backend",
+  "agentName": "Backend Agent",
+  "prompt": "Create Express.js patient routes with full CRUD: POST /api/patients (register new patient with medical info), GET /api/patients (list with search by name/phone, pagination, filter by doctor), GET /api/patients/:id (with medical history), PUT /api/patients/:id, DELETE /api/patients/:id (soft delete). All routes scoped to req.user.clinic_id. Log all actions to audit_logs table.",
+  "generatedAt": "2026-06-30T06:00:09.084Z",
+  "model": "claude-sonnet-4-6"
+}
