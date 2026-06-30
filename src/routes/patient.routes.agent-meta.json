@@ -1,8 +1,8 @@
 {
-  "taskId": "66b8ef73-40c9-460d-a796-0f40be4c42a9",
+  "taskId": "f4c4a7b3-94c3-4d20-89ea-06d15fbb0a29",
   "agentType": "backend",
   "agentName": "Backend Agent",
-  "prompt": "Create Express.js patient routes with full CRUD: POST /api/patients (register new patient with medical info), GET /api/patients (list with search by name/phone, pagination, filter by doctor), GET /api/patients/:id (with medical history), PUT /api/patients/:id, DELETE /api/patients/:id (soft delete). All routes scoped to req.user.clinic_id. Log all actions to audit_logs table.",
-  "generatedAt": "2026-06-30T06:00:09.084Z",
+  "prompt": "Create the Express.js patient ROUTES FILE ONLY (not validators) at src/routes/patient.routes.js. It must contain router.post('/'), router.get('/'), router.get('/:id'), router.put('/:id'), router.delete('/:id') with inline Joi validation, Supabase queries scoped to req.user.clinic_id, and audit_logs insert calls. Output the complete Express router file with actual route handlers — do not output a validator file.",
+  "generatedAt": "2026-06-30T06:04:53.811Z",
   "model": "claude-sonnet-4-6"
 }
