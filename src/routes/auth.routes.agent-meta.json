@@ -1,8 +1,8 @@
 {
-  "taskId": "7790364f-4ad6-4b94-8ebb-abc85760ca4c",
+  "taskId": "fc306e68-87fc-45af-b960-3a9162af5775",
   "agentType": "backend",
   "agentName": "Backend Agent",
-  "prompt": "Create Express.js auth routes: POST /api/auth/register (clinic + admin user signup), POST /api/auth/login (returns JWT with user info and role), POST /api/auth/refresh-token, POST /api/auth/logout, GET /api/auth/me. JWT should include clinic_id, user_id, role. All routes should work with the users, clinics, and user_clinic_roles tables already created.",
-  "generatedAt": "2026-06-30T04:28:06.999Z",
+  "prompt": "Create Express.js RBAC middleware that: extracts JWT from Authorization header, verifies token, loads user's role and permissions for their clinic_id, attaches to req.user. Also create a checkPermission(resource, action) middleware factory used like: router.get('/patients', checkPermission('patients', 'read'), controller). Permissions map to the role_permissions table already created.",
+  "generatedAt": "2026-06-30T04:34:58.742Z",
   "model": "claude-sonnet-4-6"
 }
